@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
         {/* Logo/Nome */}
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="/piero.jpg" // Assicurati che questo sia il percorso corretto
+            src="/Piero.jpg" // Assicurati che questo sia il percorso corretto
             alt="Piero Sabino"
             width={40}
             height={40}
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
         {/* Sezione Profilo nel menu */}
         <li className="flex flex-col items-center mb-6">
           <Image
-            src="/piero.jpg"
+            src="/Piero.jpg"
             alt="Piero Sabino"
             width={96}
             height={96}
