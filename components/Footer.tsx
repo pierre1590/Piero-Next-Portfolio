@@ -7,12 +7,12 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-col items-center">
         {/* Social media icons */}
         <div className="flex space-x-6 mb-4">
-          <Link href="https://www.linkedin.com/in/piero-sabino" passHref legacyBehavior>
+          <Link href="https://www.linkedin.com/in/pierosabino" passHref legacyBehavior>
             <a className="text-gray-500 hover:text-blue-600 transition-colors duration-300">
               <FaLinkedinIn size={24} />
             </a>
           </Link>
-          <Link href="https://www.instagram.com/pierosabino" passHref legacyBehavior>
+          <Link href="https://www.instagram.com/piero_sabino1" passHref legacyBehavior>
             <a className="text-gray-500 hover:text-pink-500 transition-colors duration-300">
               <FaInstagram size={24} />
             </a>
