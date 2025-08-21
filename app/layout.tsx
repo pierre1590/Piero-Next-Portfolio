@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Portfolio personale di Piero Sabino, sviluppatore Full-stack.',
   
   // Aggiungiamo i metadati per i motori di ricerca e i social
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://www.pierosabino.it'),
   alternates: {
     canonical: '/',
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Piero Sabino - Portfolio',
     description: 'Portfolio personale di Piero Sabino, sviluppatore Full-stack. Scopri i miei progetti e le mie competenze.',
-    url: 'http://localhost:3000',
+    url: 'https://www.pierosabino.it',
     siteName: 'Piero Sabino',
     images: [
       {
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: 'Piero Sabino - Portfolio',
     description: 'Portfolio personale di Piero Sabino, sviluppatore Full-stack. Scopri i miei progetti e le mie competenze.',
     creator: '@tuo-username-twitter',
-    images: ['/Piero.jpg'],
+    images: ['./public/Piero.jpg'],
   },
 
 };
