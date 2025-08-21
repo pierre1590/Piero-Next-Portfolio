@@ -30,6 +30,8 @@ const ContactPageClient = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    console.log('Valore form.current:', form.current);
+    
     const newErrors = { name: '', email: '', message: '' };
     let isValid = true;
 
