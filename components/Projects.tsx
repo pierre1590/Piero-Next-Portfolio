@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         {shouldTruncate && (
           <button 
             onClick={toggleExpanded} 
-            className="text-blue-600 hover:text-blue-500 font-medium mb-4 self-start"
+            className="text-blue-600 hover:text-blue-500 font-medium mb-4 self-start cursor-pointer"
           >
             {isExpanded ? 'Leggi di meno' : 'Leggi di più'}
           </button>
