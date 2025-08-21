@@ -18,12 +18,13 @@ const SkillsPageClient = () => {
   
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-gray-900 text-center text-4xl font-bold mb-12">Le mie competenze</h1>
+      
       
       {isLoading ? (
         <SkillsPageSkeleton />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <h1 className="text-gray-900 text-center text-4xl font-bold mb-12">Le mie competenze</h1>
           
           {/* Colonna Hard Skills */}
           <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
